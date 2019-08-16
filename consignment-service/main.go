@@ -1,8 +1,8 @@
 package main
 
 import (
-	pb "shippy/consignment-service/proto/consignment"
-	vesselPb "shippy/vessel-service/proto/vessel"
+	pb "github.com/bingochen87/shippy/consignment-service/proto/consignment"
+	vesselPb "github.com/bingochen87/shippy/vessel-service/proto/vessel"
 	"context"
 	"log"
 	"github.com/micro/go-micro"
