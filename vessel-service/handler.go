@@ -3,7 +3,7 @@ package main
 import (
 	"gopkg.in/mgo.v2"
 	"context"
-	pb "shippy/vessel-service/proto/vessel"
+	pb "github.com/bingochen87/shippy/vessel-service/proto/vessel"
 )
 
 // 实现微服务的服务端

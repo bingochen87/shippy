@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/labstack/gommon/log"
-	pb "shippy/user-service/proto/user"
+	pb "github.com/bingochen87/shippy/user-service/proto/user"
 	"github.com/micro/go-micro"
 	"fmt"
 )

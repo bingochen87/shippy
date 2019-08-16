@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "shippy/user-service/proto/user"
+	pb "github.com/bingochen87/shippy/user-service/proto/user"
 )
 
 type handler struct {
