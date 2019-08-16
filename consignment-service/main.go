@@ -1,9 +1,9 @@
 package main
 
 import (
-	pb "shippy/consignment-service/proto/consignment"
-	vesselPb "shippy/vessel-service/proto/vessel"
-	userPb "shippy/user-service/proto/user"
+	pb "github.com/bingochen87/shippy/consignment-service/proto/consignment"
+	vesselPb "github.com/bingochen87/shippy/vessel-service/proto/vessel"
+	userPb "github.com/bingochen87/shippy/user-service/proto/user"
 	"log"
 	"github.com/micro/go-micro"
 	"os"

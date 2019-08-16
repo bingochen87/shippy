@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "shippy/user-service/proto/user"
+	pb "github.com/bingochen87/shippy/user-service/proto/user"
 	"github.com/dgrijalva/jwt-go"
 	"time"
 )

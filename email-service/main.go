@@ -1,7 +1,7 @@
 package main
 
 import (
-	userPb "shippy/user-service/proto/user"
+	userPb "github.com/bingochen87/shippy/user-service/proto/user"
 	"github.com/micro/go-micro"
 	"log"
 	_ "github.com/micro/go-plugins/broker/nats"

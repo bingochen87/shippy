@@ -16,6 +16,8 @@ services:
       MICRO_ADRESS: ":50051"
       MICRO_REGISTRY: "mdns"
       DB_HOST: "datastore:27017"
+    depends_on:
+      - datastore
 
   vessel-service:
     build: ./vessel-service
@@ -25,6 +27,8 @@ services:
       MICRO_ADRESS: ":50051"
       MICRO_REGISTRY: "mdns"
       DB_HOST: "datastore:27017"
+    depends_on:
+      - datastore
 
   user-service:
     build: ./user-service
